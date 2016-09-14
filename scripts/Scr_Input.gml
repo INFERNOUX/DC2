@@ -32,19 +32,20 @@ if keyboard_check(ord('L')) = 1{
         var i = 0
         var works = 0
         while i < 1000{
-            if global.inventory[i,0] = 0 works = 1
+            if global.inventorylist[i,0] = 0 works = 1
             if works = 0 i = i + 1
             if works = 1 break;
             }
         if works = 1{
-            global.inventory[i,0] = 1
-            global.inventory[i,1] = 1
-            global.inventory[i,2] = 0
-            global.inventory[i,3] = 0
-            global.inventory[i,4] = irandom_range(1,3)
-            global.inventory[i,5] = irandom_range(1,3)
-            global.inventory[i,6] = Spr_Obj_Temp
-            global.inventory[i,7] = 1
+            global.inventorylist[i,0] = 1
+            global.inventorylist[i,1] = 0
+            global.inventorylist[i,2] = 0
+            global.inventorylist[i,3] = 0
+            global.inventorylist[i,4] = irandom_range(1,3)
+            global.inventorylist[i,5] = irandom_range(1,3)
+            global.inventorylist[i,6] = Spr_Obj_Temp
+            global.inventorylist[i,7] = 1
+            global.newitem = 1
             }
         global.timer = 10
         }
