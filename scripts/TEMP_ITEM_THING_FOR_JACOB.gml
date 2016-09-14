@@ -22,3 +22,5 @@
 //16 = secondary color
 //17 = turtiary color
 //18 = item name based on other stats
+
+//update so i can sync

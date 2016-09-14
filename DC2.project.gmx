@@ -10,20 +10,6 @@
       <sprites name="inventory">
         <sprite>sprites\Spr_Obj_Temp</sprite>
         <sprite>sprites\Spr_Obj_Inv</sprite>
-<<<<<<< HEAD
-=======
-      </sprites>
-    </sprites>
-    <sprites name="Justin">
-      <sprite>sprites\spr_tempfloor</sprite>
-      <sprite>sprites\spr_tempwall</sprite>
-      <sprites name="Town">
-        <sprite>sprites\spr_grass</sprite>
-        <sprite>sprites\spr_fountain</sprite>
-        <sprite>sprites\spr_house</sprite>
-        <sprite>sprites\spr_path</sprite>
-        <sprite>sprites\spr_tempborder</sprite>
->>>>>>> refs/remotes/origin/master
       </sprites>
     </sprites>
   </sprites>
@@ -47,18 +33,8 @@
         <object>objects\Obj_Inv_Screen</object>
       </objects>
     </objects>
-    <objects name="Justin">
-      <object>objects\obj_border</object>
-      <objects name="Town">
-        <object>objects\obj_grass</object>
-        <object>objects\obj_fountain</object>
-        <object>objects\obj_house</object>
-        <object>objects\obj_path</object>
-      </objects>
-    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Town</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
