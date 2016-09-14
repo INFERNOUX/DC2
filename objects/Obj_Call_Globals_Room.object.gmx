@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>Scr_Globals_Temp</script>
+            <script>Scr_Globals_Start</script>
           </argument>
           <argument>
             <kind>0</kind>
