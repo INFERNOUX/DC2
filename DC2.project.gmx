@@ -18,6 +18,20 @@
         <sprite>sprites\Spr_Item_Drop_Background</sprite>
       </sprites>
     </sprites>
+    <sprites name="Justin">
+      <sprite>sprites\spr_tempfloor</sprite>
+      <sprite>sprites\spr_tempwall</sprite>
+      <sprites name="Town">
+        <sprite>sprites\spr_grass</sprite>
+        <sprite>sprites\spr_fountain</sprite>
+        <sprite>sprites\spr_house</sprite>
+        <sprite>sprites\spr_path</sprite>
+        <sprite>sprites\spr_tempborder</sprite>
+        <sprite>sprites\spr_tavern</sprite>
+        <sprite>sprites\spr_armory</sprite>
+        <sprite>sprites\spr_smith</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -57,6 +71,24 @@
       <object>objects\Obj_Call_Globals_Room</object>
       <object>objects\Obj_Step</object>
     </objects>
+<<<<<<< HEAD
+    <objects name="Justin">
+      <object>objects\obj_border</object>
+      <objects name="Town">
+        <object>objects\obj_grass</object>
+        <object>objects\obj_fountain</object>
+        <object>objects\obj_house</object>
+        <object>objects\obj_path</object>
+        <object>objects\obj_tavern</object>
+        <object>objects\obj_armory</object>
+        <object>objects\obj_smith</object>
+      </objects>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Town</room>
+    <room>rooms\room0</room>
+=======
     <objects name="Dungeon Generation">
       <object>objects\Obj_Dungeon_Floor</object>
       <object>objects\Obj_Dungeon_Generator</object>
@@ -77,6 +109,7 @@
     <room>rooms\Dev_Room_LEAVE_TOP</room>
     <room>rooms\Dungeon</room>
     <room>rooms\Starting_Town</room>
+>>>>>>> refs/remotes/origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
